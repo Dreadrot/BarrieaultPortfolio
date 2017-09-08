@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+body{
+  background-color:rgba(69,90,100, .8);
+  color: #283048;
+  margin:0;
+}
+
+img {
+  border-radius: 15%;
+  height: 300px;
+  width: 30%;
+  margin: 1%;
+  margin-left: 1.8%;
+  opacity: 0.8;
+  -webkit-filter: blur(5px);
+  filter: blur(1.5px);
+}
+
+img:hover{
+  opacity: 1;
+  filter:none;
+  position: relative;
+  z-index: 1;
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+nav {
+  background-color: #445963;
+  position: fixed;
+  width: 100%;
+  height: 5%;
+  font-size: 18pt;
+  padding-top: 10px;
+}
+
+p, h3{
+  margin: 25px;
+}
+
+a{
+font-size: 16pt;
+color:#cfd8dc;
+background-color:#283048;
+border-radius: 10px;
+padding: 5px;
+border-style: double;
+border-color: #708690;
+text-decoration: none;
+}
+
+a:hover{
+  text-shadow: 2px 2px 2px gray;
+  text-decoration: underline;
+}
+a:active{
+  background-color: #708690;
+ }
+
+li{
+  margin:10px;
+  margin-top: 15px;
+}
+
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+}
+fieldset {
+  margin: 25px;
+}
+
+#author {
+  margin: 0;
+}
+#pun{
+  text-decoration: underline;
+  font-style: italic;
+}
+.imglink{
+
+  background-color:transparent;
+  color:hidden;
+  border-radius: none;
+  padding: 0;
+  border-style: none;
+  border-color: none;
+}
+
+input[type="submit"] {
+  color:#cfd8dc;
+  background-color: #283048;
+  height:auto;
+  width:auto;
+  margin-left: 40px;
+  font-size: 12pt;
+  border-radius: 10px;
+  border-style:double;
+  border-color: #445963;
+}
+input[type="submit"]:hover{
+  text-shadow: 2px 2px 4px gray;
+}
+input[type="submit"]:active{
+  background-color: #708690;
+}
